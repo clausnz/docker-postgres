@@ -1,6 +1,6 @@
 # Docker Postgres container
 
-Build docker container with PostgreSQL 9.5 and import SQL files in shared folder.
+Run docker container with PostgreSQL 9.5 and import SQL files in shared folder.
 
     docker run \
         -d \
@@ -28,6 +28,6 @@ Docker compose file `docker-compose.yml` section:
         - "POSTGRES_USER=my_user"
         - "POSTGRES_PASSWORD=my_pass"
 
-Start `docker-compose.yml` with following command:
+Run `docker-compose.yml` with following command:
 
     docker-compose up -d
